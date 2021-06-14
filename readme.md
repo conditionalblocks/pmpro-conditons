@@ -37,7 +37,10 @@ Use the function `pmpro_hasMembershipLevel()` with Conditional Blocks Pro.
 2. Select the PHP logic conditions.
 3. Type in the function with your membership level ID or name. e.g `pmpro_hasMembershipLevel(10)` or `pmpro_hasMembershipLevel('Yoga')` 
 
-You can also display a specific block to users who do not have the specificed memembership level by using this symbol **!**. E.g `!pmpro_hasMembershipLevel('Yoga')` will display the block to everyone who do not hold a Yoga memembership.
+You can also display a specific block to users who do not have the specificed memembership level by using this symbol **!**. 
+E.g `!pmpro_hasMembershipLevel('Yoga')` will display the block to everyone who do not hold a Yoga membership.
+
+You can stack the functions inside the PHP logic condition if a user needs to have multiple memberships.
 
 ## Step 3: Save!
 
